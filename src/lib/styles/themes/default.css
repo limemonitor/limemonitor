@@ -1,0 +1,55 @@
+:root {
+	/* Primary */
+	--primary: 0, 255, 0;
+	--primary-hover: 24, 86, 231;
+	--primary-active: 18, 71, 164;
+	--primary-text: 255, 255, 255;
+	--primary-glass: 101, 145, 241;
+	--secondary: 51, 51, 67;
+	--secondary-hover: 61, 61, 77;
+	--secondary-active: 81, 81, 97;
+	--secondary-text: 255, 255, 255;
+	--secondary-glass: var(--text);
+	/* Text color */
+	--color: 255, 255, 255;
+	--color-primary: 223, 223, 223;
+	--color-secondary: 199, 199, 200;
+	--color-faint: 130, 130, 133;
+	/* System */
+	--bg: 0, 0, 0;
+	--bg-secondary: 40, 40, 54;
+	--bg-tertiary: 50, 50, 64;
+	--border: 30, 30, 30;
+	--link: 91, 169, 255;
+	/* System (no change) */
+	--success: 34, 197, 94;
+	--success-hover: 31, 180, 87;
+	--success-active: 29, 165, 80;
+	--success-text: 255, 255, 255;
+	--success-glass: var(--success);
+	--warning: 253, 182, 34;
+	--warning-hover: 254, 207, 112;
+	--warning-active: 251, 170, 2;
+	--warning-text: 255, 255, 255;
+	--warning-glass: var(--warning);
+	--danger: 227, 43, 61;
+	--danger-hover: 213, 28, 46;
+	--danger-active: 189, 26, 41;
+	--danger-text: 255, 255, 255;
+	--danger-glass: var(--danger);
+	/** Layout **/
+	/* Elements */
+	--input: 19, 19, 28;
+	--input-focus: 8, 8, 8;
+	--tooltip: 29, 32, 43;
+	--tooltip-text: 255, 255, 255;
+	/* Layout components */
+	--header: 18, 18, 28;
+	--navigation-bar: var(--footer);
+	--sidebar: 23, 23, 36;
+	--footer: 13, 13, 19;
+	/* Layout */
+	--titlebar: 20, 20, 20;
+	--menubar: 10, 10, 10;
+	--sidebar: 0, 0, 0;
+}
