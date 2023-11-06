@@ -1,0 +1,25 @@
+@import 'lib/styles/fonts/fonts.css';
+@import 'lib/styles/themes.css';
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	background: black;
+}
+
+body {
+	background: rgb(var(--bg));
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow-x: clip;
+	color: rgb(var(--color));
+	font-family: 'Mukta', 'Nunito Sans', 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100vw;
+}
