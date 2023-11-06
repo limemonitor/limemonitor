@@ -1,6 +1,11 @@
 <script lang="ts">
 	import Icon from '@iconify/svelte';
 	import { appWindow } from '@tauri-apps/api/window';
+	let maximized = false;
+
+	onresize = async () => {
+		maximized = await appWindow.isMaximized();
+	};
 </script>
 
 <div class="relative h-10"></div>
@@ -27,7 +32,7 @@
 				appWindow.toggleMaximize();
 			}}
 		>
-			<Icon icon="fluent:maximize-16-filled" class="h-4 w-4" />
+			<Icon icon={maximized ? 'bx:windows' : 'fluent:maximize-16-filled'} class="h-4 w-4" />
 		</button>
 		<button
 			class="h-8 w-10 cursor-default px-3 py-2 transition duration-200 hover:bg-red-600 hover:ease-out active:bg-red-800 active:transition-none"

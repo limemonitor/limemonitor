@@ -32,7 +32,7 @@
 </script>
 
 <div
-	class="fixed bottom-0 left-0 top-8 min-w-[4.5rem] max-w-[4.5rem] border-r border-border bg-[rgb(var(--menubar))]"
+	class="no-select fixed bottom-0 left-0 top-8 min-w-[4.5rem] max-w-[4.5rem] border-r border-border bg-[rgb(var(--menubar))]"
 >
 	<div
 		class="absolute left-0 top-0 h-[4.5rem] w-px rounded-r-md bg-primary shadow-[0_0_20px_5px_rgba(var(--primary),0.5)] transition duration-500"
